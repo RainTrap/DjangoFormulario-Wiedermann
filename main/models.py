@@ -7,5 +7,6 @@ from django.db import models
 # Create your models here.
 
 class Suscriptor(models.Model):
-    nombre=models.CharField(max_length=140)
+    nombre=models.CharField(max_length=50)
+    apellido=models.CharField(max_length=50)
     email=models.EmailField()
